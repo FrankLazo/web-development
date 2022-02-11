@@ -1,0 +1,9 @@
+/* Sample comment */
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: #333333;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+    }    
+}

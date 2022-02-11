@@ -1,0 +1,168 @@
+/* General setup */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	min-width: 1000px;
+	max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+	float: left;
+	width: 50%;
+}
+
+aside {
+	float: left;
+	width: 30%;
+}
+
+nav {
+	float: left;
+	width: 20%;
+}
+
+footer {
+	clear: both;
+}
+
+header, section, aside, nav, footer {
+	padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+	border-top: 5px solid #a66;
+	border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-Regular.woff2') format('woff2'),
+        url('../fonts/Nunito-Regular.woff') format('woff'),
+        url('../fonts/Nunito-Regular.svg#Nunito-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Bold.eot');
+    src: url('../fonts/Nunito-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nunito-Bold.woff2') format('woff2'),
+        url('../fonts/Nunito-Bold.woff') format('woff'),
+        url('../fonts/Nunito-Bold.svg#Nunito-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/EBGaramond-Bold.woff2') format('woff2'),
+        url('../fonts/EBGaramond-Bold.woff') format('woff'),
+        url('../fonts/EBGaramond-Bold.svg#EBGaramond-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/EBGaramond-Regular.eot');
+    src: url('../fonts/EBGaramond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EBGaramond-Regular.woff2') format('woff2'),
+        url('../fonts/EBGaramond-Regular.woff') format('woff'),
+        url('../fonts/EBGaramond-Regular.svg#EBGaramond-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+	font-family: 'EB Garamond', 'Times New Roman', 'Times', serif;
+	font-size: 16px;
+}
+
+h1, h2 {
+	font-family: 'Nunito', 'Helvetica', 'Arial', sans-serif;
+	letter-spacing: .125rem;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+body {
+	line-height: 1.5;
+	letter-spacing: .0625rem;
+	word-spacing: .25rem;
+}
+
+h2 + p {
+	text-indent: 20px;
+}
+
+a {
+	font-weight: bold;
+	outline: none;
+}
+
+a[href^="http"]::after {
+	content: "";
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	margin-left: .25rem;
+	background: url(../images/external-link-52.png);
+	background-size: contain;
+}
+
+a:link {
+	color: rgb(102, 50, 50);
+}
+
+a:visited {
+	color: rgb(117, 102, 170);
+}
+
+a:focus {
+	color: #a66;
+}
+
+a:hover {
+	color: #a66;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: square;
+}
+
+nav ul {
+	list-style-type: none;
+	border-left: 1px solid #a66;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+}

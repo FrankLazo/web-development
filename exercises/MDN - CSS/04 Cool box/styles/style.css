@@ -1,0 +1,28 @@
+html {
+	font-family: sans-serif;
+}
+
+/* Your CSS below here */
+
+html {
+	font-size: 16px;
+}
+
+p {
+	box-sizing: border-box;
+	width: 200px;
+	height: 32px;
+	background: linear-gradient( to bottom right, rgba( 0, 0, 0, 0 ), rgba( 0, 0, 0, 0.2 ) 30% );
+	background-color: peru;
+	border: 1px solid rgb(143, 81, 20);
+	border-radius: 3px;
+	box-shadow: 4px 4px 4px #888,
+	            2px 2px 4px rgba(255, 255, 255, .5) inset,
+	            -2px -2px 4px rgba(0, 0, 0, .5) inset;
+	color: peru;
+	font-size: 1.125rem; /* From root font size (16px) : 18px */
+	line-height: 32px;
+	text-align: center;
+	text-shadow: 0px 0px 2px black,
+				 1px 1px 0px #333;
+}
